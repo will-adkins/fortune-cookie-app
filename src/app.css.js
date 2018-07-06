@@ -1,6 +1,7 @@
 const style = {
   root: {
-    backgroundColor: 'purple',
+    height: '100%',
+    backgroundColor: 'darkblue',
     fontFamily: 'avenir',
     color: 'white',
     display: 'flex',
@@ -9,10 +10,11 @@ const style = {
     flexDirection: 'column'
   },
   button: {
-    backgroundColor: 'purple',
+    backgroundColor: 'darkblue',
     color: 'white',
     padding: '16px',
     borderRadius: '4px',
+    fontSize: '1.25em',
     border: '2px solid white'
   }
 }
